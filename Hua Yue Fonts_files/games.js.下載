@@ -1,0 +1,51 @@
+
+function init()
+{
+	
+  SetSubscribe();
+
+
+   window.addEventListener('scroll',solveScroll);
+
+
+	$(".gamePurchaseCH").hover(function()
+	{
+
+			$(".gamePurchaseCH").animate({
+				backgroundColor: "rgb(245,51,87)",
+			},100);
+
+
+	},function()
+	{
+
+			$(".gamePurchaseCH").animate({
+				backgroundColor: "rgb(50,50,50)",
+			},100);
+
+
+	});
+
+
+}
+
+function solveScroll() 
+{
+	var percentage = getMiddlePercentage();
+
+
+	var result = -460 + percentage;
+
+	$("#gameDetentionDiv").css(
+	{
+		backgroundPosition: "center "+result+"px",
+	});
+}
+
+function getMiddlePercentage()
+{
+	var documentHeight = $(document).height();
+	var windowHeight = $(window).height();
+	var scrollTop = $(window).scrollTop();
+	return scrollTop;
+}

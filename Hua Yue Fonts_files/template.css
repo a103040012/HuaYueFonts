@@ -1,0 +1,1504 @@
+
+#ENDetentionQuestion
+{
+	display: none;
+}
+
+.QuestionDetail
+{
+	font-size: 14px;
+	color: rgb(204,204,204);
+
+	padding-top: 15px;
+	padding-right: 240px;
+}
+
+.QuestionTitle
+{
+	color: white;
+	font-size: 23px;
+	padding-top: 35px;
+}
+
+.QASelected
+{
+	color: #F53357;
+	display: inline-block;
+		padding-left: 10px;
+
+}
+
+#detentionPlatformText
+{
+	font-family: "Open Sans", sans-serif;
+}
+
+.QAUnselected
+{
+	color: white;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+#QALanguageOptionPanel:hover
+{
+	cursor: pointer;
+}
+
+#QALanguageOptionPanel
+{
+	font-size: 24px;
+
+	text-align: right;
+
+	margin-right: 80px;
+	margin-top: -36px;
+	margin-bottom: 55px;
+	font-weight: bold;
+}
+
+.QATitle
+{
+	color: #F53357;
+	font-size: 40px;
+	font-family: basic,sans-serif;
+}
+
+.QATitleEN
+{
+	color: white;
+}
+
+#QASection
+{
+	width: 905px;
+	text-align: left;
+	padding-bottom: 70px;
+	background-color: rgb(50,50,50);
+	padding-left: 80px;
+	padding-top: 50px;
+
+}
+
+#Indexthanks
+{
+	color: white;
+	opacity: 0;
+}
+
+#Indexinvalid
+{
+	color:rgb(255,255,255);
+	background-color: rgba(5,51,87,1) !important;
+	position: relative;
+	top: -40px;
+	opacity: 0;
+}
+
+#SubScribeReadme
+{
+	color: white;
+	margin-top: 30px;
+	font-size: 14px;
+}
+
+
+#IndexsubmitForm
+{
+	padding-top: 52px;
+}
+
+#IndexSubmit
+{
+	background-color: rgba(24,16,67,1) !important;
+    border-color: rgba(61,44,42,1);
+    border-width: 0px;
+    padding: 7px 24px;
+    margin-bottom: 0!important;
+    color: #FFFFFF;
+    font: normal normal bold 19px/23px basic,sans-serif;
+    margin-left: 10px;
+
+}
+
+
+#Indexemail
+{
+	border-width: 0px;
+    border-color: #000000;
+    background-color: rgba(255,255,255,1);
+    color: rgba(185,133,128,1);
+    font: normal normal normal 16px/20px basic,sans-serif;
+    width: 340px;
+	 padding: 7px;
+
+}
+
+#indexSubscribePanelLogoTextEn
+{
+	font-size: 42px;
+	color: white;
+}
+
+
+#indexSubscribePanelLogo
+{
+	margin-top: 18px;
+	display: inline-block;
+
+}
+
+#indexSubscribePanel
+{
+	background-color: rgb(0,51,87);
+	margin-top: -64px;
+	text-align: center;
+	height: 720px;
+}
+
+#indexSubscribePanelLogoText
+{
+	color: white;
+	font-size: 38px;
+	margin-top: 95px;
+	display: inline-block;
+}
+
+#ComingSoon
+{
+	font-style: italic;
+	color: white;
+	position: relative;
+	font-family: "Open Sans", sans-serif;
+	font-size: 42px;
+	top: 110px;
+}
+
+.unlockgameBlack
+{
+	background-color: rgba(0,0,0,0.5);
+	width: 980px;
+	height: 300px;
+
+}
+
+.gameToOfficial
+{
+	font-family: "Open Sans", sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	position: relative;
+	left: 340px;
+	top: -150px;
+
+}
+#heightHolderForGame
+{
+	height: 1100px;
+}
+
+.PlatformStay
+{
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
+	top: 20px;
+	left: 445px;
+	position: relative;
+	font-family: "Open Sans", sans-serif;
+}
+
+#gameStayWithMeDiv
+{
+	background-image: url("noel.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.gameUnderline
+{
+	margin-bottom: -100px;
+}
+
+.gameArrowRight
+{
+	position: relative;
+	top: 2px;
+}
+
+.gameSocialLinks
+{
+	position: relative;
+	left: -365px;
+	top: -122px;
+}
+.gameSocialLink
+{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#gameButtonDetention
+{
+	position: relative;
+	left: 765px;
+	top: -245px;
+	border: none;
+	border-spacing: 0px;
+}
+
+.gamePurchaseCH
+{
+    
+	background-color: rgb(50,50,50);
+	color:rgb(228,228,228);
+	width: 197px;
+	height: 42px;
+	vertical-align: middle;
+	font-size: 18px;
+}
+
+.gamePurchaseEN
+{
+	background-color: rgb(255,255,255);
+	color: rgb(50,50,50);
+		vertical-align: middle;
+		font-size: 17px;
+			font-family: "Open Sans", sans-serif;
+}
+
+.Platform
+{
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
+	top: 20px;
+	left: 390px;
+	position: relative;
+		font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+#font_hyk_w3
+{
+	position: relative;
+    width: 300px;
+	left: -300px;
+	top: -160px;
+}
+
+#font_hyk_w3_bg
+{
+    width: 985px;
+	left: -280px;
+	top: 1150px;
+}
+
+
+
+.gameTitle
+{
+	font-weight: bold;
+	font-size: 28px;
+	margin-top: 73px;
+	display: inline-block;
+	font-family: "Open Sans", sans-serif;
+	line-height: 4px;
+}
+
+.releaseDate
+{
+	font-weight: bold;
+	font-size: 12px;
+	font-style: italic;
+	font-family: "Open Sans", sans-serif;
+	color:#656565;
+	display: inline-block;
+
+}
+
+.gameSlot
+{
+	display: inline-block;
+	width: 980px;
+	margin-top: 2px;
+	height: 300px;
+}
+
+#gameDetentionDiv
+{
+	background-image: url("gamedetentionbg.png");
+	background-position: center -460px;
+}
+
+.highlightLink
+{
+	text-decoration: underline;
+}
+
+#gameSection
+{
+	text-align: center;
+}
+
+#thanks
+{
+	color: white;
+	margin-top: 25px;
+	opacity: 0;
+	display: none;
+}
+
+a { color: inherit; } 
+
+
+
+#submitForm
+{
+	margin-top: 30px;
+}
+
+#invalid
+{
+	color:rgb(255,255,255);
+	background-color: rgba(04,10,67,1) !important;
+	position: relative;
+	top: 37px;
+	opacity: 0;
+
+}
+
+input:focus {
+    outline:none;
+}
+
+button:focus {
+    outline:none;
+}
+
+button:hover
+{
+	cursor: pointer;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgb(185, 133, 128)
+;;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgb(185, 133, 128)
+;;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgb(185, 133, 128)
+;;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgb(185, 133, 128)
+;;
+}
+
+#email
+{
+	border-width: 0px;
+    border-color: #000000;
+    background-color: rgba(255,255,255,1);
+    color: rgba(185,133,128,1);
+    font: normal normal normal 16px/20px basic,sans-serif;
+    width: 340px;
+	 padding: 7px;
+
+}
+
+#Submit
+{
+	background-color: rgba(20,16,67,1) !important;
+    border-color: rgba(61,44,42,1);
+    border-width: 0px;
+    padding: 7px 24px;
+    margin-bottom: 0!important;
+    color: #FFFFFF;
+    font: normal normal bold 19px/23px basic,sans-serif;
+    margin-left: 10px;
+
+}
+
+#subscribeDescriptionCH
+{
+	color: white;
+	font-weight: bold;
+	letter-spacing: 1.7px;
+	font-size: 34px;
+	margin-top: 25px;
+
+}
+
+#subscribeDescriptionEN
+{
+	color:white;
+	font-weight: bold;
+	letter-spacing: 1.25px;
+	font-size: 25px;
+	font-family: "Open Sans", sans-serif;
+	margin-top: 10px;
+}
+
+#subscribePanelInner
+{
+	width: 630px;
+	height: 268px;
+	background-color: rgb(20,51,87);
+	z-index: 101;
+	display: inline-block;
+}
+
+#Cell
+{
+	display:table-cell; 
+	vertical-align:middle;
+	text-align: center;
+}
+
+#subscribePanel
+{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: 100;
+	display:none;
+	opacity: 0;
+}
+
+#subscribeCross
+{
+	position: relative;
+	top: 20px;
+	left: 285px;
+}
+
+#subscribeCross:hover
+{
+	cursor: pointer;
+}
+
+#subscribeBackground
+{
+	z-index: 99;
+	background-color: rgb(50,50,50);
+	opacity:0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	display: none;
+}
+
+.GameSelectionTitle
+{
+	font-size: 13px;
+	color: rgb(101,101,101);
+	font-family: serif;
+
+}
+
+#DetentionBannerOffset
+{
+	opacity: 0;
+	position: relative;
+	left: 10px;
+
+}
+
+#table
+{
+	display: inline-block;
+}
+
+.selectedButton
+{
+	Color : white;
+	background-color: rgba(175, 8, 0, 1);
+}
+
+
+.unselectedButton
+{
+	Color : black;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+
+.selectedArrow
+{
+	opacity: 1;
+}
+
+.unselectedArrow
+{
+	opacity: 0;
+}
+
+#ContactSectionOffset
+{
+	position: relative;
+	opacity: 1;
+	top: 0px;
+}
+
+#AboutSectionOffset
+{
+	position: relative;
+	opacity: 1;
+	top: 0px;
+}
+
+
+
+
+#mailbuttonDiv
+{
+	width: 154px;
+	height: 32px;
+	display: inline-block;
+	color:white;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #FFFFFF;
+	font-size: 21px;
+	margin-top: 22px;
+	vertical-align: middle;
+}
+
+@-moz-document url-prefix() { 
+#mailbuttonDivText
+{
+	position: relative;
+	top: 6px;
+}
+}
+
+@-moz-document url-prefix() { 
+#hackContactJoin
+{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+}
+
+
+#EndContactTextCH
+{
+	font-size: 14px;
+	margin-top: 70px;
+	color: white;
+	width: 470px;
+	display: inline-block;
+}
+
+
+#EndContactTextEN
+{
+	font-size: 15px;
+	margin-top: 25px;
+	color: white;
+	width: 670px;
+	display: inline-block;
+}
+
+
+.ContactTitleEN
+{
+	font-size: 30px;
+	color: white;
+	margin-top: 50px;
+}
+
+
+.ContactTitle
+{
+	font-size: 30px;
+	color: white;
+	margin-top: 21px;
+}
+
+.ContactDescription
+{
+	line-height: 1.5em;
+	color: white;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+
+.ContactBlock
+{
+	width: 272px;
+	height: 465px;
+	display: inline-block;
+	position: relative;
+	vertical-align:top;
+}
+
+.ContentSplitLine
+{
+	width: 2px;
+	height: 465px;
+	display: inline-block;
+	background-color: white;
+	margin-left: 23px;
+	margin-right: 23px;
+}
+
+#ContactSectionContent
+{
+	width: 1000px;
+	height: 465px;
+	display: inline-block;
+	margin-top: 65px;
+	text-align: center;
+	vertical-align: center;
+}
+
+
+
+#ContactSection
+{
+	background-color: rgba(5, 0, 87, 1);
+	width: 100%;
+	height: 970px;
+	position: relative;
+	top: 0px;
+	text-align: center;
+	opacity: 1;
+}
+
+#presskitDivText
+{
+	position: relative;
+	top: 5px;
+}
+
+#presskitDiv
+{
+	width: 142px;
+	height: 40px;
+	display: inline-block;
+	color:white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FFFFFF;
+	font-size: 21px;
+	margin-top: 35px;
+}
+
+#founders
+{
+	margin-top: 80px;
+}
+
+#AboutDescriptionEN
+{
+		font-family: "Ariel";
+		width: 455px;
+}
+
+
+.AboutDescription
+{
+	display: inline-block;
+	color:white;
+	width: 414px;
+	margin-top: 55px;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+#RedCandleBanner
+{
+	opacity: 1;
+}
+
+#AboutLogo
+{
+	display: inline-block;
+	margin-top: 70px;
+}
+
+#AboutSection
+{
+	width: 100%;
+	height: 750px;
+	background-color: rgba(25,0, 87, 1);
+	position: relative;
+	top: 0px;
+	text-align: center;
+	opacity: 1;
+}
+
+.pinkBackground
+{
+	background-color: rgba(20, 51, 87, 1);
+}
+
+
+#detentionDescriptionEN
+{
+	position: relative;
+	margin-top: 26px;
+	font-family: "Open Sans", sans-serif;
+	line-height: 21px;
+}
+
+#detentionDescription
+{
+	position: relative;
+	top: -16px;
+	line-height: 21px;
+}
+
+.descriptionLinkEN
+{
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: rgb(255,255,255);
+	background-color: black;
+	display: inline-block;
+	margin: 0px;
+	text-decoration: underline;
+	padding-left: 3px;
+	padding-right: 3px;
+	top: 8px;
+	position: relative;
+	font-family: "Open Sans", sans-serif;
+}
+
+.descriptionLink
+{
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: rgb(255,255,255);
+	background-color: black;
+	display: inline-block;
+	margin: 0px;
+	text-decoration: underline;
+	padding-left: 3px;
+	padding-right: 3px;
+	top: -9px;
+	position: relative;
+}
+
+.descriptionStyle
+{
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #656565;
+}
+
+
+#GameDetentionSteamLogo
+{
+	position: relative;
+	left:500px;
+	top:-65px;
+
+}
+
+.DateDescription
+{
+	font-size: 14px;
+	color: #7B5955;
+	font-style: italic;
+
+}
+
+.PlatformDescription
+{
+	font-size: 18px;
+	color: #F53357;
+}
+
+#GameSectionDetentionTitle
+{
+	font-size: 35px;
+}
+
+
+#GameSectionDetentionLogoCh
+{
+	position: relative;
+	left: 80px;
+}
+
+
+#GameSectionDetentionLogoEn
+{
+	position: relative;
+	left: 83px;
+	top:2px;
+}
+
+
+.GameSectionLeft
+{
+	position: relative;
+	height: 628px;
+	width: 250px;
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+.GameSectionRight
+{
+	padding-top: 3px;
+	position: relative;
+	height: 628px;
+	width: 622px;
+	top: -630px;
+	left:280px;
+}
+
+
+#GameSectionContent
+{
+	width: 100%;
+	height: 628px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.CircleItem
+{	
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	border: 0px solid rgba(50, 65, 88, 1);
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 55px;
+}
+
+.CircleItem:hover
+{
+	cursor: pointer;
+}
+
+#detentionCicle
+{
+
+	background-size: 60%;
+	background-position: center center;
+	background-color: rgba(20, 51, 87, 1);
+	background-repeat: no-repeat;
+}
+
+.SelectedCircle
+{
+	background-color: rgba(0, 0, 87, 1);
+}
+
+.NormalCircle
+{
+	background-color: rgba(204, 204, 204, 1);
+	background-image: url("locker.png");
+	background-position: center 45%;
+	background-repeat: no-repeat;
+	background-size: 60%;
+
+}
+
+.CircleItem:hover
+{
+	cursor: pointer;
+}
+
+
+#SelectionItems
+{
+	background-color: white;
+	height: 170px;
+	width: 980px;
+	text-align: center;
+
+}
+
+
+#GamesSection
+{
+	height: 810px;
+
+
+}
+
+#GameSectionBackground
+{
+	width: 100%;
+	background-color: white;
+	position: relative;
+	top: -64px;
+	opacity: 1;
+}
+
+
+
+#body
+{
+	overflow-x:auto;
+	overflow-y:scroll;
+	height: 100%;
+	display: block;
+	  font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#div
+{
+	display: block;
+
+}
+
+#sitecontainer
+{
+
+}
+
+#heightHolder
+{
+	position: relative;
+	top: -22px;
+}
+
+.Section 
+{
+  position: relative;
+  left: 50%;
+  margin-left: -490px;
+  width: 980px;
+}
+
+#menu
+{
+	text-align:center;
+	left:110px;
+	width: 760px;
+	position: absolute;
+	top: 118px;
+	height: 34px;
+	z-index: 80;
+	border:none;
+	border-spacing: 0;
+	letter-spacing:-1px;
+
+}
+
+@-moz-document url-prefix() { 
+.textOffset
+{
+	position: relative;
+	top: 2px;
+}
+}
+
+@-moz-document url-prefix() { 
+#presskitDivText
+{
+	position: relative;
+	top: 11px;
+	display: inline-block;
+}
+}
+
+.menuButton
+{
+	width:134px;
+	height: 32px;
+	text-align: center;
+	font-size: 19px;
+	padding-top: 0px;
+	vertical-align: middle;
+	
+}
+
+.menuButton:hover
+{
+	cursor: pointer;
+}
+
+#TopSection
+{
+	height: 150px;
+	width: 100%;
+	z-index: 49;
+	position: fixed;
+	top: 0px;
+	background-color: white;
+}
+
+#TopSectionHolder
+{
+	height: 150px;
+	z-index: 50px;
+}
+
+
+#borderLine
+{
+	width: 100%;
+	height: 0px;
+	border-bottom-color: gray;
+	border-bottom-width: 0px;
+	border-bottom-style: solid;
+	border-top-color: gray;
+	border-top-width: 0px;
+	border-top-style: solid;
+	box-shadow: 0px 0px 3px 1px black;
+	position: relative;
+	z-index: 50;
+	display: none;
+	top:149px;
+
+}
+
+#MailLogoDiv
+{
+	width: 110px;
+	height: 110px;
+	display: inline-block;
+		padding-top: 70px;
+}
+
+    #subscribe
+{
+	left: 845px;
+    position: absolute;
+    visibility: inherit;
+    top: 46px;
+    border: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    background: rgb(200, 8, 0);
+    border-radius: 3em;
+    color: #fff;
+    padding: 1em 2em;
+    text-transform: uppercase;
+}
+
+
+
+
+.socialLogos
+{
+    margin-bottom: 0;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.founders
+{
+	margin-left: 11px;
+	margin-right: 11px;
+}
+
+
+.founders
+{
+	display: inline-block;
+	background: #fff;
+	border-radius: 50%;
+	border: 2px solid #fff;
+}
+
+#socialLogos
+{
+	  
+    left: 682px;
+    position: absolute;
+    top: 46px;
+    height: 39px;
+
+}
+
+#newsSection
+{
+	width: 100%;
+	height: 734px;
+}
+
+#RedCandleBanner
+{
+	height: 734px;
+	
+    background-image : url("RedCandleBanner.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+#RedCandleBannerCopy
+{
+	height: 734px;
+	
+    background-image : url("RedCandleBanner.png");
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    position: relative;
+    top: -796px;
+    left: -100%;
+}
+
+
+#DetentionBannerCopy
+{
+	height: 734px;
+    background-image : url("detentionLogo.png");
+    background-size: auto 100%;
+    background-position: center center;
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    left: 100%;
+    z-index: 20;
+}
+
+
+#DetentionBanner
+{
+	height: 734px;
+    background-image : url("detentionLogo.png");
+	background-size: auto 100%;
+	background-position: center center;
+
+
+
+}
+
+
+#logo
+{
+	left:24px;
+	top:29px;
+	width: 47px;
+	height: :57px;
+	position :absolute;
+
+}
+
+#logoText
+{
+	left:px;
+	top:29px;
+	width: 300px;
+	height: :28px;
+	position :absolute;
+}
+
+
+
+
+.arrow-container
+{
+	width: 100%; 
+	z-index: 90;
+}
+
+.arrow-height
+{
+	width: 100%; 
+	height: 0px;
+	background-color: rgba(0, 51, 87, 1);
+	margin: 0 auto;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid rgba(175, 8, 0, 1);
+  position: relative;
+  left: 50%;
+  margin-left: -12px;
+}
+
+#detentionLogoCh
+{
+	position: relative;
+  	left: 50%;
+  	top: 52px;
+  	margin-left: 320px;
+}
+
+#detentionLogoEn
+{
+	position: relative;
+  	left: 50%;
+  	margin-left: 325px;
+  	top: 62px;
+}
+
+#detentionOnSale
+{
+	position: relative;
+  	left: 50%;
+  	margin-left: -462px;
+  	top: -176px;
+  	font-size: 76px;
+  	font-weight: bold;
+  	line-height: normal;
+  	color:rgb(0,51,87);
+  	letter-spacing:34.2px;
+	font-family: "Open Sans", sans-serif;
+}
+
+#detentionOnSale2
+{
+	position: relative;
+	left: 10px;
+}
+
+#detentionOnSaleCh
+{
+	position: relative;
+  	left: 50%;
+  	margin-left: -462px;
+  	font-family: "Open Sans", sans-serif;
+  	background-color: rgb(20,20,20);
+  	color: white;
+  	font-weight: bold;
+  	width: 295px;
+  	height: 50px;
+  	top:-176px;
+  	font-size: 37px;
+  	text-align: center;
+  	letter-spacing:0.45em;
+  	padding-right: 0px;
+}
+
+#footer
+{
+	    width: 100%;
+    position: fixed;
+    z-index: 50;
+    left: 0px;
+    height: 29px;
+    bottom: 0px;
+    top: auto;
+    background-color: white;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(101,101,101);
+    vertical-align: center;
+}
+
+#detentionSteamLogo
+{
+	position: relative;
+	left: 50%;
+  	margin-left: -466px;
+  	top:-153px;
+
+}
+
+#detentionPlatform
+{	
+	position: relative;
+	width: 181px;
+	height:23px;
+	background-color: rgb(255,255,255);
+	left: 50%;
+  	margin-left: -348px;
+  	top:-183px;
+  	font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#detentionPlatformText
+{
+	position: relative;
+	top:1px;
+}
+
+
+#footerText
+{
+	position: relative;
+	top: 6px;
+}
+
+#InteractButtons
+{
+	position: relative;
+	left: 50%;
+  	margin-left: 100px;
+  	top: -47px
+}
+
+#LearnMore
+{
+	width: 208px;
+	height: 42px;
+	background-color:rgb(50,50,50);
+	color: white;
+	font-size: 21px;
+	text-align: center;
+}
+
+.InteractTextOffset
+{
+	position: relative;
+	top: 6px;
+}
+
+#Purchase
+{
+	position: relative;
+	width: 180px;
+	height: 42px;
+	background-color:rgb(50,50,50);
+	color: white;
+	font-size: 21px;
+	text-align: center;
+	top: -42px;
+	left: 195px;
+}
+
+#Purchase:hover
+{
+	cursor: pointer;
+}
+
+#LearnMore:hover
+{
+	cursor: pointer;
+}
+
+#Website
+{
+	width: 208px;
+	height: 42px;
+}
+
+.InteractTextOffset2
+{
+	position: relative;
+	top: 6px;
+}
+
+#Website
+{
+	top: -42px;
+	width: 197px;
+	height: 23px;
+	text-align: center;
+	position: relative;
+	color: rgb(20,20,20);
+	background-color: white;
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+
+}
+
+#Website:hover
+{
+	cursor: pointer;
+}
+
+#SteamStore:hover
+{
+	cursor: pointer;
+}
+
+#SteamStore
+{
+	width: 187px;
+	height: 23px;
+	text-align: center;
+	position: relative;
+	color: rgb(20,20,20);
+	background-color: white;
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+	top: -65px;
+	left: 192px;
+}
+
+a {
+    text-decoration: none ;
+}
+
+a:hover
+{
+	cursor: pointer;
+}
+
+#RightTriangle
+{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 21px 0 21px 21px;
+	border-color: transparent transparent transparent #323232;
+	position: relative;
+	top:-130px;
+	left: 375px;
+}
+
+#RightTriangle:hover
+{
+	cursor: pointer;
+}
+
+.arrow
+{
+	fill: rgba(123, 89, 85, 1);
+    stroke: rgba(123, 89, 85, 1);
+    stroke-width: 1px;
+    width: 26px;
+    height: 50px;
+}
+
+.arrow:hover
+{
+	cursor: pointer;
+}
+
+#leftArrow
+{
+	position: absolute;
+	top: 350px;
+	left:110px;
+}
+
+#rightArrow
+{
+	position: absolute;
+	top: 340px;
+	right:110px;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td 
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+	font-family:Microsoft JhengHei;
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}

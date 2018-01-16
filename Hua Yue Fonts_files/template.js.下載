@@ -1,0 +1,315 @@
+var subscribeAnimation = false;
+
+function validateEmail(email)
+{
+	var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	return re.test(email) && !(email.indexOf('+')>=0);
+}
+
+var submitted = false;
+function EmailDone()
+{
+	if(submitted)return;
+
+	var email = $("#email").val();
+
+	email = email.toLowerCase();
+
+	if(validateEmail(email))
+	{
+		submitted = true;
+
+
+			$.get( "SaveToMailChimp.php?email="+email)
+			.done(function( result ) {
+								//mail chimp done
+								console.log(result);
+			  }
+			);
+
+
+
+		$("#invalid").animate({opacity:0},200);
+
+		$("#submitForm").animate({opacity:0},200,function()
+		{
+			$("#submitForm").css({display:"none"});
+			$("#thanks").css({display:"block"});
+			$("#thanks").animate({opacity:1},200);
+		});
+	}
+	else
+	{
+		$("#invalid").animate({opacity:1},200);
+	}
+
+	return false;
+}
+
+function ShowSubscribeWindow()
+{
+
+		if(!subscribeAnimation)
+		{
+			subscribeAnimation = true;
+
+		   $("#subscribeBackground").css(
+			{
+				display:"inline",
+			});
+
+		    $("#subscribePanel").css(
+			{
+				display:"table",
+			});
+
+			$("#subscribeBackground").animate(
+			{
+				opacity:0.9,
+			},300);
+
+			$("#subscribePanel").animate(
+			{
+				opacity:1,
+			},300,function()
+			{
+				subscribeAnimation = false;
+			});
+
+
+	    }
+
+}
+
+function HideSubscribeWindow()
+{
+		if(!subscribeAnimation)
+		{
+			subscribeAnimation = true;
+
+			$("#subscribeBackground").animate(
+			{
+				opacity:0,
+			},300);
+
+			$("#subscribePanel").animate(
+			{
+				opacity:0,
+			},300,function()
+			{
+
+
+				$("#subscribeBackground").css(
+				{
+					display:"none",
+				});
+
+			    $("#subscribePanel").css(
+				{
+					display:"none",
+				});
+
+				subscribeAnimation = false;
+			});
+
+		}
+}
+
+function SetSubscribe()
+{
+
+
+	$("#gameDetentionDiv").click(function()
+	{
+		     window.open("http://store.steampowered.com/app/555220/Detention/","_blank");
+	});
+
+	$("#newsButton").click(function()
+	{
+		     window.open("index.php","_self");
+	});
+
+	$("#aboutButton").click(function()
+	{
+		     window.open("about.php","_self");
+	});
+	
+
+	$("#gameButton").click(function()
+	{
+		     window.open("games.php","_self");
+	});
+
+	$("#contactButton").click(function()
+	{
+		     window.open("contact.php","_self");
+	});
+
+
+	$("#QAButton").click(function()
+	{
+		     window.open("support.php","_self");
+	});
+
+
+	$("#subscribePanelInner").click(function()
+   	{
+   		return false;
+   	});
+	$("#subscribePanel").click(HideSubscribeWindow);
+
+	$("#Submit").click(EmailDone);
+
+
+	$("#subscribe").click(function()
+	{
+		ShowSubscribeWindow();
+	});
+
+	$("#subscribeCross").click(function()
+	{
+		HideSubscribeWindow();
+	});
+
+	  	$("#newsButton").hover(function()
+		{
+			if($("#newsButton").hasClass("unselectedButton"))
+			{
+				$("#newsButton").animate({
+					backgroundColor: "rgba(245, 51, 87, 1)",
+					color : "white",
+				},100);
+			}
+
+		},function()
+		{
+//
+			//menuDatas[3].hover = false;
+
+			if($("#newsButton").hasClass("unselectedButton"))
+			{
+				$("#newsButton").animate({
+					backgroundColor: "rgba(255, 255, 255, 1)",
+					color : "black",
+				},100);
+			}
+
+		});
+
+
+		$("#contactButton").hover(function()
+		{
+
+			//menuDatas[3].hover = true;
+
+			if($("#contactButton").hasClass("unselectedButton"))
+			{
+				$("#contactButton").animate({
+					backgroundColor: "rgba(245, 51, 87, 1)",
+					color : "white",
+				},100);
+			}
+
+		},function()
+		{
+//
+			//menuDatas[3].hover = false;
+
+			if($("#contactButton").hasClass("unselectedButton"))
+			{
+				$("#contactButton").animate({
+					backgroundColor: "rgba(255, 255, 255, 1)",
+					color : "black",
+				},100);
+			}
+
+		});
+
+				$("#aboutButton").hover(function()
+		{
+
+			//menuDatas[2].hover = true;
+
+			if($("#aboutButton").hasClass("unselectedButton"))
+			{
+				$("#aboutButton").animate({
+					backgroundColor: "rgba(245, 51, 87, 1)",
+					color : "white",
+				},100);
+			}
+
+		},function()
+		{
+
+			//menuDatas[2].hover = false;
+
+			if($("#aboutButton").hasClass("unselectedButton"))
+			{
+				$("#aboutButton").animate({
+					backgroundColor: "rgba(255, 255, 255, 1)",
+					color : "black",
+				},100);
+			}
+
+		});
+
+
+		$("#gameButton").hover(function()
+		{
+
+			//menuDatas[1].hover = true;
+
+			if($("#gameButton").hasClass("unselectedButton"))
+			{
+				$("#gameButton").animate({
+					backgroundColor: "rgba(245, 51, 87, 1)",
+					color : "white",
+				},100);
+			}
+
+		},function()
+		{
+
+			//menuDatas[1].hover = false;
+
+			if($("#gameButton").hasClass("unselectedButton"))
+			{
+				$("#gameButton").animate({
+					backgroundColor: "rgba(255, 255, 255, 1)",
+					color : "black",
+				},100);
+			}
+
+		});
+
+		$("#QAButton").hover(function()
+		{
+
+			//menuDatas[1].hover = true;
+
+			if($("#QAButton").hasClass("unselectedButton"))
+			{
+				$("#QAButton").animate({
+					backgroundColor: "rgba(245, 51, 87, 1)",
+					color : "white",
+				},100);
+			}
+
+		},function()
+		{
+
+			//menuDatas[1].hover = false;
+
+			if($("#QAButton").hasClass("unselectedButton"))
+			{
+				$("#QAButton").animate({
+					backgroundColor: "rgba(255, 255, 255, 1)",
+					color : "black",
+				},100);
+			}
+
+		});
+
+}
+
+
